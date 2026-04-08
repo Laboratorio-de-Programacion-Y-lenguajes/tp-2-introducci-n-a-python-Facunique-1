@@ -253,16 +253,16 @@ Las use tal cual porque estaban bien hechas, los comentarios y ejemplos sirviero
 
 ### 6 - funciones.py
 
-GitHub Copilot: 
+Claude Haiku: 
 
 **Prompt usado**:
-> 
+> Escribí las funciones de orden superior aplicar_funcion, componer, memoizar y reducir (sin functools). Al final, aplicá el patrón de Reflexión para explicarme por qué no deberías usar functools .reduce y qué implica que lo uses.
 
 **Resultado obtenido**:
-
+La IA me paso el código y ejemplos de cada una de las funciones explicando que hace cada parte.
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Las use tal cual porque estaban bien hechas, los comentarios y ejemplos sirvieron para entender el código.
 
 ---
 
