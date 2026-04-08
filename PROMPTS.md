@@ -64,13 +64,13 @@ Las use tal cual porque estaban bien hechas, tenian logica.
 GitHub Copilot Integrado: 
 
 **Prompt usado**:
-> 
+> "Ninguno", las mismas sentecias fueron leidas por Copilot.
 
 **Resultado obtenido**:
-
+Cada función solicitada fue realizada por Copilot.
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Las use tal cual porque estaban bien hechas, tenian logica y las corrobore.
 
 ---
 
