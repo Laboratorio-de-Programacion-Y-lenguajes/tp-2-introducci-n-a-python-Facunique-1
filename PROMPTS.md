@@ -13,7 +13,7 @@ que sepas qué le pediste, qué obtuviste, y si tuviste que corregirlo.
 ```
 ### [Número] - [Módulo]
 
-**Herramienta**: GitHub Copilot / ChatGPT / otra
+[Herramienta]: GitHub Copilot / ChatGPT / otra
 
 **Prompt usado**:
 > Escribí acá exactamente lo que le pediste a la IA
@@ -31,37 +31,37 @@ Explicá qué cambios hiciste y por qué (o por qué no cambiaste nada).
 
 ### 1 - variables.py
 
-**Herramienta**: 
+GitHub Copilot Integrado: 
 
 **Prompt usado**:
-> 
+> "Ninguno", las mismas sentecias fueron leidas por Copilot.
 
 **Resultado obtenido**:
-
+Cada función solicitada fue realizada por Copilot.
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Las use tal cual porque estaban bien hechas, tenian logica.
 
 ---
 
 ### 2 - condicionales.py
 
-**Herramienta**: 
+GitHub Copilot Integrado: 
 
 **Prompt usado**:
-> 
+> "Ninguno", las mismas sentecias fueron leidas por Copilot.
 
 **Resultado obtenido**:
-
+Cada función solicitada fue realizada por Copilot.
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Las use tal cual porque estaban bien hechas, tenian logica.
 
 ---
 
 ### 3 - listas.py
 
-**Herramienta**: 
+GitHub Copilot Integrado: 
 
 **Prompt usado**:
 > 
@@ -76,7 +76,7 @@ Explicá qué cambios hiciste y por qué (o por qué no cambiaste nada).
 
 ### 4 - diccionarios.py
 
-**Herramienta**: 
+GitHub Copilot Integrado: 
 
 **Prompt usado**:
 > 
@@ -91,7 +91,7 @@ Explicá qué cambios hiciste y por qué (o por qué no cambiaste nada).
 
 ### 5 - loops.py
 
-**Herramienta**: 
+GitHub Copilot Integrado: 
 
 **Prompt usado**:
 > 
@@ -106,7 +106,7 @@ Explicá qué cambios hiciste y por qué (o por qué no cambiaste nada).
 
 ### 6 - funciones.py
 
-**Herramienta**: 
+GitHub Copilot Integrado: 
 
 **Prompt usado**:
 > 
@@ -121,7 +121,7 @@ Explicá qué cambios hiciste y por qué (o por qué no cambiaste nada).
 
 ### 7 - operaciones.py
 
-**Herramienta**: 
+GitHub Copilot Integrado: 
 
 **Prompt usado**:
 > 
@@ -141,3 +141,4 @@ Respondé brevemente (3-5 oraciones):
 - ¿Qué aprendiste sobre cómo formular buenos prompts?
 - ¿En qué casos la IA fue útil y en cuáles no?
 - ¿Qué harías diferente la próxima vez?
+    
