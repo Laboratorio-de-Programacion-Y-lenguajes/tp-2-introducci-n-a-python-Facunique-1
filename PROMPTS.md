@@ -268,16 +268,16 @@ Las use tal cual porque estaban bien hechas, los comentarios y ejemplos sirviero
 
 ### 7 - operaciones.py
 
-GitHub Copilot: 
+Claude Haiku: 
 
 **Prompt usado**:
-> 
+> Tengo que implementar funciones de manipulación de strings (palíndromos, capitalizar, contar vocales y cifrado César). Para el cifrado César, aplicá el patrón de Enfoques Alternativos: compará la resolución usando matemáticas ASCII (ord/chr) versus usar el método str.maketrans(). Explicame los pros y contras de cada uno y escribí el código de la opción que sea mejor para entender la lógica subyacente.
 
 **Resultado obtenido**:
-
+La IA me comparo los dos enfoques para Caesar Cipher, explicando el código y la matemática destrás de ambos. Explica que es más didáctica la versión con (ord/chr), que la versión con el método str.markettrans().
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Lo usé tal cual, la documentación y los ejemplos lo hicieron bastante claros
 
 ---
 
@@ -286,6 +286,12 @@ GitHub Copilot:
 Respondé brevemente (3-5 oraciones):
 
 - ¿Qué aprendiste sobre cómo formular buenos prompts?
+
+    Aprendí que existen los patrones para promptear, en base al documento de Prompt Engeneering. 
+
 - ¿En qué casos la IA fue útil y en cuáles no?
+
+    A este punto, que es inicial, sirvió en todos los casos.
+
 - ¿Qué harías diferente la próxima vez?
-    
+    Saber más del lenguaje antes de usar la IA o usar la IA para aprender el lenguaje previamente.
