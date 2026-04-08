@@ -27,6 +27,10 @@ Explicá qué cambios hiciste y por qué (o por qué no cambiaste nada).
 
 ---
 
+###### Aclaración:
+Utilicé Gemini para que haga el prompt que sería enviado para la resolución de cada módulo a Claude Haiku del chat de VSCode, en Gemini cargué el paper de Promt Engeneering y las sentencias que se dictaban en el código de cada módulo.
+
+
 ## Mis prompts
 
 ### 1 - variables.py
@@ -165,16 +169,16 @@ Las use tal cual porque estaban bien hechas, tenian logica y las corrobore.
 
 ### 4 - diccionarios.py
 
-GitHub Copilot: 
+Claude Haiku integrado a VSCode: 
 
 **Prompt usado**:
-> 
+> Usando el patrón de Generación Infinita, dame 2 ejemplos de diccionarios con las claves: nombre, apellido, edad y mail. Después, escribí las funciones contar_palabras, invertir diccionario, merge_diccionarios (si hay claves repetidas prevalecen d2) y filtrar_por_valor
 
 **Resultado obtenido**:
-
+La IA me paso el código y ejemplos de cada una de las funciones explicando que hace cada parte.
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Las use tal cual porque estaban bien hechas, los comentarios y ejemplos sirvieron para entender el código.
 
 ---
 
