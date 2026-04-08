@@ -184,16 +184,70 @@ Las use tal cual porque estaban bien hechas, los comentarios y ejemplos sirviero
 
 ### 5 - loops.py
 
-GitHub Copilot: 
+Claude Haiku integrado a VSCode:
 
 **Prompt usado**:
-> 
+> Necesito implementar funciones iterativas en Python: contar_hasta, tabla_multiplicar, suma_digitos, es_primo y fibonacci. Antes de darme el código, usá el patrón de Refinamiento de Preguntas para sugerirme una mejor versión de mi consulta, enfocándote en cómo optimizar el rendimiento matemático y manejar correctamente los casos base (como números negativos en Fibonacci).
 
 **Resultado obtenido**:
 
+"Implementá funciones iterativas que manejen correctamente:
+
+Casos base inválidos (n < 0, n = 0, etc.)
+Optimizaciones matemáticas (ej: sqrt para primos)
+Rendimiento en números grandes (Fibonacci recursivo vs iterativo)
+Claridad en comportamiento para entrada límite"
+
+❓Preguntas de Refinamiento (responde lo que consideres):
+
+Pregunta 1: contar_hasta() - Números negativos
+¿Una lista vacía []?
+¿Un error?
+¿Ignorar y retornar lista vacía?
+
+Pregunta 2: suma_digitos() - Números negativos
+¿Suma solo los dígitos (ignorando el -)?
+¿O lanza ValueError?
+
+Pregunta 3: es_primo() - Optimización
+¿Sabés por qué range(2, int(n**0.5) + 1) es mejor que range(2, n)?
+¿Querés que te explique la razón matemática?
+
+Pregunta 4: fibonacci() - Casos base
+¿Cómo manejar entradas inválidas?
+
+Pregunta 5: tabla_multiplicar() - ¿Rango fijo?
+¿O debería ser configurable con otro parámetro?
+
+Pregunta 6: Rendimiento - ¿Importa?
+Si tuvieras que calcular fibonacci(100):
+¿Te conformas con cualquier velocidad?
+¿O preferís la versión iterativa (más rápida)?
+
+
+Mi respuesta:
+
+respuesta 1:
+- debería retornar una lista vacía en caso n menor que 1.
+
+respuesta 2:
+- que sume solo los digitos.
+
+respuesta 3:
+- porque el numero resultante de la raíz de n simepre va a ser más pequeño que n.
+
+respuesta 4:
+- retornar [] en 0 o menores.
+
+respuesta 5:
+-  siempre 10 multiplos.
+
+respuesta 6:
+- versión iterativa 
+
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Las use tal cual porque estaban bien hechas, los comentarios y ejemplos sirvieron para entender el código.
 
 ---
 
